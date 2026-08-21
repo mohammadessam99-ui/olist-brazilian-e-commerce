@@ -17,17 +17,20 @@ Provides a high-level summary of core business KPIs, target achievements, paymen
   * **Target Achievement:** 89% Sales Achievement Rate | 89% Profit Achievement Rate
 * **Payment Preference:** Credit Card dominates total payment volume (**78.81%**), followed by Boleto (**16.82%**).
 
-https://github.com/mohammadessam99-ui/olist-brazilian-e-commerce/blob/main/OverView.png
+![Executive Performance Overview](https://raw.githubusercontent.com/mohammadessam99-ui/olist-brazilian-e-commerce/main/OverView.png)
 
-https://github.com/mohammadessam99-ui/olist-brazilian-e-commerce/blob/main/OverView%20Comparing.png
+![Executive Performance Comparison](https://raw.githubusercontent.com/mohammadessam99-ui/olist-brazilian-e-commerce/main/OverView%20Comparing.png)
+
+---
 
 ### 2. Year-over-Year (YoY) & Sales Performance Analysis
 Tracks multi-year historical revenue trends, monthly growth fluctuations, and product category profitability using dynamic metric switches.
 * **Monthly Revenue & Growth:** Features interactive toggle buttons (*Total Sales*, *Total Profit*, *Total Cost Freight*) to track MoM growth percentage variations (e.g., peak growth periods exceeding **+103.97%** MoM).
 * **Profitability Matrix:** Includes a scatter plot analyzing the correlation between Total Sales and Total Profit by month, alongside top profit-generating categories led by *Watches & Gifts* and *Health & Beauty*.
 
-https://github.com/mohammadessam99-ui/olist-brazilian-e-commerce/blob/main/Sales.png
+![Sales & YoY Analysis](https://raw.githubusercontent.com/mohammadessam99-ui/olist-brazilian-e-commerce/main/Sales.png)
 
+---
 
 ### 3. Seller Performance & Geographic Analysis
 Combines geospatial mapping with granular seller analytics to evaluate vendor efficiency, processing delays, and regional fulfillment performance.
@@ -35,27 +38,37 @@ Combines geospatial mapping with granular seller analytics to evaluate vendor ef
 * **Seller Operations Metrics:** Analyzes **36,368 orders** across vendors with an average seller processing time of **6.28 days** and an overall seller return rate of **1.23%**.
 * **Fulfillment Efficiency:** Tracks delivery lead times (**10.79 days actual** vs. **26.26 days estimated**), highlighting a **15.47-day shipping gap** (delivering ahead of estimated dates).
 
-https://github.com/mohammadessam99-ui/olist-brazilian-e-commerce/blob/main/Seller.png
+![Seller Performance](https://raw.githubusercontent.com/mohammadessam99-ui/olist-brazilian-e-commerce/main/Seller.png)
+
+---
 
 ### 4. Product & Category Deep-Dive
-Analyzes order distribution, revenue drivers, and profit margins across key product lines 
+Analyzes order distribution, revenue drivers, and profit margins across key product lines.
 
-https://github.com/mohammadessam99-ui/olist-brazilian-e-commerce/blob/main/Product.png
+![Product Analysis](https://raw.githubusercontent.com/mohammadessam99-ui/olist-brazilian-e-commerce/main/Product.png)
+
+---
 
 ### 5. Customer & Geographic Demographics
 Examines customer geographic distribution across Brazilian states (e.g., SP, RJ, MG), purchasing frequency, average order value, and payment installment behavior.
 
-https://github.com/mohammadessam99-ui/olist-brazilian-e-commerce/blob/main/Customers.png
+![Customer Demographics](https://raw.githubusercontent.com/mohammadessam99-ui/olist-brazilian-e-commerce/main/Customers.png)
+
+---
 
 ### 6. Supply Chain & Logistics Management
 Monitors fulfillment efficiency, delivery lead times, shipping gaps, and return rates across price ranges and product categories.
 
-https://github.com/mohammadessam99-ui/olist-brazilian-e-commerce/blob/main/Return.png
+![Logistics & Returns](https://raw.githubusercontent.com/mohammadessam99-ui/olist-brazilian-e-commerce/main/Return.png)
+
+---
 
 ### 7. Customer Reviews & Service Quality
 Tracks review scores (4.09 average score), sentiment distribution, and the direct correlation between on-time vs. late deliveries and overall customer rating.
 
-https://github.com/mohammadessam99-ui/olist-brazilian-e-commerce/blob/main/Ratting.png
+![Customer Reviews](https://raw.githubusercontent.com/mohammadessam99-ui/olist-brazilian-e-commerce/main/Ratting.png)
+
+---
 
 ## 🛠️ Tools & Technical Implementation
 * **Power BI & DAX:** Advanced Time Intelligence DAX measures for YoY/MoM comparisons (`Sales vs Last Year`, `Sales MoM Growth %`), dynamic metric switches, and custom visuals.
@@ -64,6 +77,7 @@ https://github.com/mohammadessam99-ui/olist-brazilian-e-commerce/blob/main/Ratti
 
 ---
 
+## 🎯 Key Business Insights
 1. **Strong Year-over-Year Expansion:** Annual sales grew by **+68.28%** and order volume increased by **+69.40%**, showing rapid platform scaling.
 2. **Delivery Speed Over-Performance:** Actual fulfillment averages **10.79 days**, significantly outperforming the **26.26-day estimated lead time**, driving positive customer satisfaction.
 3. **Seller Processing Bottlenecks:** Vendor processing averages **6.28 days**, representing a key operational area for supply chain optimization.
