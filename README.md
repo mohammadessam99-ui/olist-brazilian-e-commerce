@@ -51,7 +51,6 @@ https://github.com/mohammadessam99-ui/olist-brazilian-e-commerce/blob/main/Custo
 Monitors fulfillment efficiency, delivery lead times, shipping gaps, and return rates across price ranges and product categories.
 
 https://github.com/mohammadessam99-ui/olist-brazilian-e-commerce/blob/main/Return.png
----
 
 ### 7. Customer Reviews & Service Quality
 Tracks review scores (4.09 average score), sentiment distribution, and the direct correlation between on-time vs. late deliveries and overall customer rating.
