@@ -8,7 +8,7 @@ Data Architecture & Star Schema Model
 
 The data model follows a **Star Schema** architecture (with normalized snowflake lookup entities) designed for high query efficiency, complex DAX time intelligence, and granular cross-functional analytics across orders, fulfillment, products, and customer feedback.
 
-(https://github.com/mohammadessam99-ui/olist-brazilian-e-commerce/blob/main/Analysis%20Project/Data%20Modeling.png)
+![Data Model Architecture](Analysis%20Project/DataModel.png)
 
 ### 1. Fact Tables
 * **`Order Items Dataset`**: Core transactional fact table capturing item-level revenue metrics (`price`, `freight_value`) linked to products, sellers, and order headers.
