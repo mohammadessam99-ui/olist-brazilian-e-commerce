@@ -4,7 +4,25 @@
 An end-to-end Power BI Business Intelligence solution built on the **Olist Brazilian E-Commerce Dataset**. This interactive multi-page dashboard translates complex transactional and logistics data into actionable insights—evaluating sales trends, seller performance, geographic distribution, fulfillment timelines, and customer satisfaction.
 
 ---
+Data Architecture & Star Schema Model
 
+The data model follows a **Star Schema** architecture (with normalized snowflake lookup entities) designed for high query efficiency, complex DAX time intelligence, and granular cross-functional analytics across orders, fulfillment, products, and customer feedback.
+
+(https://github.com/mohammadessam99-ui/olist-brazilian-e-commerce/blob/main/Analysis%20Project/Data%20Modeling.png)
+
+### 1. Fact Tables
+* **`Order Items Dataset`**: Core transactional fact table capturing item-level revenue metrics (`price`, `freight_value`) linked to products, sellers, and order headers.
+* **`Order Dataset`**: Order-level fact table storing operational status timestamps (`purchase`, `approved`, `carrier_delivered`, `customer_delivered`, `estimated_delivery`) used for supply chain lead-time analytics.
+* **`Target`**: Fact table storing target goal benchmarks linked directly to the date dimension for KPI achievement tracking.
+
+### 2. Dimension Tables
+* **`Dim_Date`**: Dedicated calendar dimension supporting advanced DAX Time Intelligence calculations (YoY, MoM growth comparisons).
+* **`Customer Dataset`**: Stores customer identifiers (`Customer Id`, `Customer Unique Id`) and regional location attributes.
+* **`Seller Dataset`**: Stores vendor identifiers and seller region details for vendor performance tracking.
+* **`Product Dataset` & `Product Category Name`**: Catalog dimension hierarchies classifying item categories for revenue and profitability analysis.
+* **`Order Payment` & `Order Review`**: Dimension and detail tables tracking payment types, installment plans, sentiment feedback, and review scores.
+
+---
 ## 🖥️ Dashboard Breakdown & Visuals
 
 ### 1. Executive Performance & Sales Overview
