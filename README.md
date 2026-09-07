@@ -4,7 +4,7 @@
 An end-to-end Power BI Business Intelligence solution built on the **Olist Brazilian E-Commerce Dataset**. This interactive multi-page dashboard translates complex transactional and logistics data into actionable insights—evaluating sales trends, seller performance, geographic distribution, fulfillment timelines, and customer satisfaction.
 
 ---
-Data Architecture & Star Schema Model
+### Data Architecture & Star Schema Model
 
 The data model follows a **Star Schema** architecture (with normalized snowflake lookup entities) designed for high query efficiency, complex DAX time intelligence, and granular cross-functional analytics across orders, fulfillment, products, and customer feedback.
 
@@ -35,9 +35,9 @@ Provides a high-level summary of core business KPIs, target achievements, paymen
   * **Target Achievement:** 89% Sales Achievement Rate | 89% Profit Achievement Rate
 * **Payment Preference:** Credit Card dominates total payment volume (**78.81%**), followed by Boleto (**16.82%**).
 
-![Executive Performance Overview](https://raw.githubusercontent.com/mohammadessam99-ui/olist-brazilian-e-commerce/main/OverView.png)
+![Executive Performance Overview](Analysis%20Project/OverView.png)
 
-![Executive Performance Comparison](https://raw.githubusercontent.com/mohammadessam99-ui/olist-brazilian-e-commerce/main/OverView%20Comparing.png)
+![Executive Performance Comparison](Analysis%20Project/OverView%20Comparing.png)
 
 ---
 
@@ -46,7 +46,7 @@ Tracks multi-year historical revenue trends, monthly growth fluctuations, and pr
 * **Monthly Revenue & Growth:** Features interactive toggle buttons (*Total Sales*, *Total Profit*, *Total Cost Freight*) to track MoM growth percentage variations (e.g., peak growth periods exceeding **+103.97%** MoM).
 * **Profitability Matrix:** Includes a scatter plot analyzing the correlation between Total Sales and Total Profit by month, alongside top profit-generating categories led by *Watches & Gifts* and *Health & Beauty*.
 
-![Sales & YoY Analysis](https://raw.githubusercontent.com/mohammadessam99-ui/olist-brazilian-e-commerce/main/Sales.png)
+![Sales & YoY Analysis](Analysis%20Project/Sales.png)
 
 ---
 
@@ -56,35 +56,35 @@ Combines geospatial mapping with granular seller analytics to evaluate vendor ef
 * **Seller Operations Metrics:** Analyzes **36,368 orders** across vendors with an average seller processing time of **6.28 days** and an overall seller return rate of **1.23%**.
 * **Fulfillment Efficiency:** Tracks delivery lead times (**10.79 days actual** vs. **26.26 days estimated**), highlighting a **15.47-day shipping gap** (delivering ahead of estimated dates).
 
-![Seller Performance](https://raw.githubusercontent.com/mohammadessam99-ui/olist-brazilian-e-commerce/main/Seller.png)
+![Seller Performance](Analysis%20Project/Seller.png)
 
 ---
 
 ### 4. Product & Category Deep-Dive
 Analyzes order distribution, revenue drivers, and profit margins across key product lines.
 
-![Product Analysis](https://raw.githubusercontent.com/mohammadessam99-ui/olist-brazilian-e-commerce/main/Product.png)
+![Product Analysis](Analysis%20Project/Product.png)
 
 ---
 
 ### 5. Customer & Geographic Demographics
 Examines customer geographic distribution across Brazilian states (e.g., SP, RJ, MG), purchasing frequency, average order value, and payment installment behavior.
 
-![Customer Demographics](https://raw.githubusercontent.com/mohammadessam99-ui/olist-brazilian-e-commerce/main/Customers.png)
+![Customer Demographics](Analysis%20Project/Customers.png)
 
 ---
 
 ### 6. Supply Chain & Logistics Management
 Monitors fulfillment efficiency, delivery lead times, shipping gaps, and return rates across price ranges and product categories.
 
-![Logistics & Returns](https://raw.githubusercontent.com/mohammadessam99-ui/olist-brazilian-e-commerce/main/Return.png)
+![Logistics & Returns](Analysis%20Project/Return.png)
 
 ---
 
 ### 7. Customer Reviews & Service Quality
 Tracks review scores (4.09 average score), sentiment distribution, and the direct correlation between on-time vs. late deliveries and overall customer rating.
 
-![Customer Reviews](https://raw.githubusercontent.com/mohammadessam99-ui/olist-brazilian-e-commerce/main/Ratting.png)
+![Customer Reviews](Analysis%20Project/Ratting.png)
 
 ---
 
